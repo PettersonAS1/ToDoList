@@ -14,12 +14,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>To Do!</title>
+    <title>ToDoList</title>
   </head>
   <body>
     <div class="todo-container">
       <header>
-        <h1>ToDo Avançado</h1>
+        <h1>Meu ToDoList</h1>
       </header>
       <form id="todo-form">
         <p>Adcione a sua tarefa:</p>
@@ -27,7 +27,7 @@
           <input
             type="text"
             id="todo-input"
-            placeholder="O que você vai fazer?"
+            placeholder="O que temos para hoje?"
           />
           <button type="submit">
             <i class="fa-thin fa-plus"></i>
@@ -50,7 +50,7 @@
           <form action="">
             <input type="text" id="search-input" placeholder="Buscar" />
             <button id="erase-button">
-              <i class="fa-solid fa-delete-left"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
         </div>
@@ -64,8 +64,8 @@
         </div>
       </div>
       <div id="todo-list">
-        <div class="todo done">
-          <h3>Estou fazendo alguma coisa...</h3>
+        <div class="todo">
+          <h3>Estudar JavaScript</h3>
           <button class="finish-todo">
             <i class="fa-solid fa-check"></i>
           </button>
@@ -78,6 +78,30 @@
         </div>
         <div class="todo">
           <h3>Estudar PHP</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="edit-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="remove-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="todo done">
+          <h3>Estudar HTML e CSS</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="edit-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="remove-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <h3>Praticar Inglês</h3>
           <button class="finish-todo">
             <i class="fa-solid fa-check"></i>
           </button>

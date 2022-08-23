@@ -22,6 +22,7 @@ button {
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -144,7 +145,8 @@ select {
 }
 
 .done {
-  background-color: #aa69ff;
+  background-color: #4716a8;
+  border-radius: 6px 15px;
 }
 
 .done h3 {
