@@ -1,4 +1,4 @@
-# ToDoList
+# Organize suas tarefas diarias!
 
 Visite o Projeto: https://pettersonas1.github.io/ToDoList/
 
